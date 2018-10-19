@@ -3,7 +3,7 @@
 
 import sys
 sys.path.insert(0, 'lib/')
-from cesar import cesar
+from crypt import cesar
 
 cryptKey = int(input("Enter cryptKey in integer: "))
 sentense = input("Enter sentense: ")
