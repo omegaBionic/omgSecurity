@@ -4,6 +4,7 @@
 import sys
 sys.path.insert(0, 'lib/')
 from crypt import cesar
+from crypt import reverse
 
 cryptKey = int(input("Enter cryptKey in integer: "))
 sentense = input("Enter sentense: ")
@@ -25,3 +26,8 @@ print("crypticSentense: '" + crypticSentense + "'")
 # Display Cesar decryption
 print("\nCesar decryption:")
 print("decryptSentense: '" + cesar.decrypt(crypticSentense, cryptKey) + "'")
+
+
+# Display reverse
+print("\nReverse: '" + reverse.reverse(sentense) + "'")
+print("Reverse: '" + reverse.reverse(sentense) + "'")

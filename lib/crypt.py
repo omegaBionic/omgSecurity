@@ -21,3 +21,13 @@ class cesar:
         for charactere in sentenseInit:
             sentenseReturn += chr(ord(charactere) + cryptKey)
         return sentenseReturn
+
+class reverse:
+    def __init__(self):
+        pass
+
+    def reverse(sentenseInit):
+        sentenseReturn = ""
+        for charactere in reversed(sentenseInit):
+            sentenseReturn += charactere
+        return sentenseReturn
