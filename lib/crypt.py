@@ -2,7 +2,6 @@
 # This is Cesar library
 
 
-
 class cesar:
     def __init__(self):
         pass
