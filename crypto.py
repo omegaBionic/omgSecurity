@@ -9,7 +9,6 @@ from crypt import reverse
 cryptKey = int(input("Enter cryptKey in integer: "))
 sentense = input("Enter sentense: ")
 
-
 # Display resume
 print("\nRESUME:")
 print("Your cryptKey is: " + str(cryptKey))
